@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>ECommerce</title>
+     <style>
+          .box-catogory{
+               border-radius: 5px;
+               border: 2px solid black;
+               box-shadow: 6px 6px 6px;
+               padding: 2px;
+               font-weight: bold;
+               margin: 3px;
+               transition: all .2s ease;
+               position: relative;
+          }
+          .box-catogory:hover{
+               cursor: pointer;
+               background-color:rgb(40, 220, 202) ;
+               font-size: 15px
+          }
+          .sub-options{
+               display: none;
+               margin-top: 10px;
+          }
+          .sub-box{
+               border: 1px solid grey;
+               border-radius: 3px;
+               padding:5px;
+               margin: 3px;
+               background-color:aqua ;
+               transition: 0.5s;
+          }
+          .sub-box.sub-box:hover{
+               cursor: pointer;
+               font-size: 10px;
+
+          }
+     </style>
+</head>
+<body background="images/background.png">
+<table border="1" width="100%" cellpadding="10" cellspacing="0">
+     <tr background="linear-gradient(to right, palegreen,pink)">
+          <!--HEADER -->
+     <td colspan="4" >
+     <table width="100%">
+          <tr>
+               <td width="25%">
+                    <img src="c:\Users\adity\Downloads\images-removebg-preview.png" width="140" height="90">
+               </td>
+               <td width="50%" align="center">
+                    <input type="text" size="40" placeholder="Search Products">
+                    <input type="submit" value="Search">
+                </td>
+               <td width="25%" align="center">
+                    <font color="white">
+                            <b>Login</b> ||
+                            <b>Register</b> ||
+                            <b>Cart (0)</b>
+                    </font>
+               </td>
+
+          </tr>
+
+
+
+     </table>
+
+     </tr>
+     <tr style="background:linear-gradient(to right, palegreen,pink)">
+          <!--CATEGORIES -->
+          <div class="box-catogory">
+          <td colspan="4">
+          <table width="100%" border="0"><tr align="center">
+               
+               <td><font color="black" aria-setsize="15" ><div class="box-catogory" onclick="toggleFashion()"><b>FASION</b>
+               <div id="fasion-options" class="sub-options">
+               <div class="sub-box">MEN</div>
+               <div class="sub-box">WOMEN</div>
+               </div>
+               </div>
+               </font>
+               </td>
+               <td><font color="black" aria-setsize="15" ><div class="box-catogory"><b>ELECTRONICS</b></div></font></td>
+               <td><font color="black" aria-setsize="15" ><div class="box-catogory"><b>TOYS</b></div></font></td>
+               <td><font color="black" aria-setsize="15" ><div class="box-catogory"><b>SPORTS</b></div></font></td>
+               <td><font color="black" aria-setsize="15" ><div class="box-catogory"><b>BOOKS</b></div></font></td>
+               
+          </table>
+          </td>
+     
+     </tr>
+
+     <tr>
+          <!--BANNER -->
+
+     </tr>
+     <tr>
+          <!--MOVING OFFERS -->
+
+     </tr>
+
+
+
+     <tr>
+          <!--FOOTER -->
+<tr bgcolor="#0D47A1">
+          <!--HEADER -->
+     <td colspan="4">
+     <table width="100%">
+          <tr>
+               <td width="25%">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3826.6631459528603!2d80.62001431044068!3d16.441925684227346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35f0a2a7d81943%3A0x8ba5d78f65df94b8!2sKL%20University!5e0!3m2!1sen!2sin!4v1785913650294!5m2!1sen!2sin" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+               </td>
+               <td width="50%" align="center">
+                    <font color="white">
+                            <h2>KLECommerce</h2>
+                            
+                            Home ||
+                         Products ||
+                         About Us ||
+                         Contact Us ||
+                              Help
+
+                <br><br>
+
+                Copyright © 2026 KLECommerce
+
+                            
+                    </font>
+                    
+                </td>
+               <td width="25%" align="center">
+                   <input type="text" size="30" placeholder="Customer Feedback">
+                   <input type="text" size="30" placeholder="Customer Name">
+                   <input type="text" size="30" placeholder="Product Rating">
+                   <br> 
+                   <input type="submit" value="Send">
+               </td>
+
+          </tr>
+
+          
+
+     </table>
+
+
+
+
+
+     </tr>
+
+
+
+     </tr>
+
+
+
+</table>
+
+   <script>
+function toggleFashion() {
+    var options = document.getElementById("fashion-options");
+    if (options.style.display === "block") {
+        options.style.display = "none";
+    } else {
+        options.style.display = "block";
+    }
+}
+</script>
+  
+</body>
+</html>
