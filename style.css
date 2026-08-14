@@ -1,0 +1,59 @@
+h1{
+
+    color:aquamarine;
+    font-size:50px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 2px pink;
+}
+
+.text-gredient{
+    text-align: center;
+    
+    font-size:40px;
+    font-weight:bold;
+    background-color:rgb(33, 167, 234);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 2px black;
+    text-decoration: underline;
+}
+header{
+    border: solid 2px black;
+    font-size: 50px;
+    background: rgb(25, 101, 101);
+    text-align: center;
+    -webkit-text-fill-color: aqua;
+}
+footer{
+    border: solid 2px darkcyan;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   background-color: rgb(88, 115, 133);
+    text-align: center;
+    padding: 10px;
+    border-radius: 3px;
+    -webikit-text-stroke:2px black;
+    box-shadow: 5px 5px 4px black;
+    
+
+    
+}
+.box-cat{
+    border: solid 2px black;
+    border-radius: 3px;
+    width: 200px;
+   color: beige;
+   text-align: center;
+   margin: 10px;
+   background-color: rgba(70, 255, 187, 0.745);
+   box-shadow: 2px 2px 2px rgb(97, 62, 68);
+   align-items: center;
+}
+.box-cat :hover{
+    cursor: pointer;
+    color: aqua;
+    font-size: 10px;
+}
